@@ -82,7 +82,7 @@ const useSnakeGame = () => {
         if (status !== GameStatus.init) {
             return
         }
-        if (difficulty < 1 || difficulty > difficulty.length) {
+        if (difficulty < 1 || difficulty > Difficulty.length) {
             return
         }
         setDifficulty(difficulty)
